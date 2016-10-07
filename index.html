@@ -18,7 +18,6 @@
 </head>
 
 <body class="text-center">
-
     <div class="container">
         <div class="masthead">           
                 <div class="navbar-header">
@@ -36,17 +35,16 @@
 
 <div class="container">
 	<div class="jumbotron">
-	<h1>Welcome to my space!</h2>
-	<P> My name is Lyci George. I am passionate about learning new technologies. I have been into research and development for more than seven years!While I was a researcher I have used many software solutions for data analytics and fell in love with coding.</p>
+	<h1>Welcome to my space!</h1>
+	<P> My name is Lyci George. I am passionate about learning new technologies. I have been into research and development for more than seven years! While I was a researcher I have used many software solutions for data analytics and fell in love with coding.</p>
 	<img src="images/lyci.JPG" alt="Me at downtown Portland" height="150" width="200">
-	<p> I love to use my coding skills to create fast, functional and dynamic websites. I am also interested in playing with data and finding meaningfull insights from it.</p>
+	<p><br/> I love to use my coding skills to create fast, functional and dynamic websites. I am also interested in playing with data and finding meaningfull insights from it.</p>
 	</div>
 </div> 
-    
 <div class="container">
 	   <h3>Some of my codes </h3>
-        <P>Below you may find my cods/scripts in C#, Python, SQL, javaScript, HTML/CSS and Hive/Sqoop. I will be adding more projects soon! </p>
-</div>             
+        <P>Below you may find my codes/scripts in C#, Python, SQL, javaScript/jQuery, HTML/CSS and Hive/Sqoop. I will be adding more projects soon! </p>
+</div> <br/>           
         
         <!-- Start Tiles -->
         <div class="row tiles"><!-- Start Row 1 -->
@@ -93,13 +91,13 @@
                 <p class="lead">Click-stream</p>
             </div>
 		</div><!--End Row 2--> 
+			<br/>
 			
     <p class="lead">You can find my publications here: <a href="https://scholar.google.com/citations?user=37Z9oTsAAAAJ&hl=en"> Google Scholar Page </a>
 	<br/>My past research work allows me to be highly adaptable in organizational Agile and Scrum methodologies and Product Life Cycle Management (PLM). I am looking forward to an opportunity to contribute my skills, learn and grow with the right company.</p>
 	</div>
 	</div>
        
-
     <!--  Site footer  -->
     <footer class="footer">			
        <div class="row">         
@@ -132,16 +130,15 @@
             <div class="col-lg-12">
 			    All Rights Reserved <i class="fa fa-copyright fa-lg"></i> 2016
             </div>
-        </div>
-		
+        </div>		
     </footer>
     
   
 </body>
 </html>
-<script> 
+ <script> 
 $(document).ready(function() {
-   $("div.row.tiles").hide();
+   $("div.row.tiles").toggle();
   $("img").mouseenter(function() {
      $("div.row").fadeIn(5000);
   });
