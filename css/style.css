@@ -67,6 +67,14 @@ h2, h4{
 	color: #00aced !important;
 }
 
+#linkedin{
+    margin-left: 39% !important;
+}
+
+#linkedin:hover {
+	color: #00aced !important;
+}
+
 #facebook:hover {
 	color: #3b5998 !important;
 }
