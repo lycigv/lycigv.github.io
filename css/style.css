@@ -31,11 +31,7 @@ h2, h4{
   font-family: 'Titillium Web', sans-serif;
   }
    
-#rights {
-	font-size: 0.8em !important;
-	text-align: center !important;
-	color: green !important;
-}
+
 
 #footSocial{
 	font-size: 1 em !important;
@@ -43,11 +39,11 @@ h2, h4{
 	width: 100% !important;
     height: 10px !important;
 	float: left !important;
-	margin-top: 0px;
-    margin-bottom: 50px;
+	margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-#footSocial a {
+#footSocial  a{
 	font-size: 1 em !important;
 	text-align: center !important;
 	color: green !important;
@@ -57,18 +53,18 @@ h2, h4{
 }
 
 #facebook{
-    margin-left: 0% !important;
+    margin-left: 0px !important;
 }
 #twitter{
-    margin-left: 40% !important;
+    margin-left: 70px!important;
+}
+
+#linkedin{
+    margin-left: 80px !important;
 }
 
 #twitter:hover {
 	color: #00aced !important;
-}
-
-#linkedin{
-    margin-left: 39% !important;
 }
 
 #linkedin:hover {
@@ -106,16 +102,7 @@ h2, h4{
 	position: block !important;
 	color: green !important;
 }
-/*welcome container styling
-.jumbotron {
-  width: 100%;
-  font-size: 10px;
-  text-align: center;
-  background-color: transparent;
-  margin-top: -60px;
-  margin-bottom: -60px;
-  } */
- 
+
 div.row {
   width: 100%;
   margin-top: 10px; 
@@ -125,4 +112,22 @@ div.row {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+/*welcome container styling
+.jumbotron {
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  background-color: transparent;
+  margin-top: -60px;
+  margin-bottom: -60px;
+  } 
+  #rights {
+	font-size: 0.8em !important;
+	text-align: center !important;
+	color: green !important;
+}
+  */
+ 
+
 
